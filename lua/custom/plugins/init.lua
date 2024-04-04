@@ -6,7 +6,16 @@ return {
   {
     'akinsho/bufferline.nvim',
     config = function()
-      require('bufferline').setup {}
+      require('bufferline').setup {
+        options = {
+          enabled = true,
+          delay = 200,
+          reveal = { 'close' },
+          indicator = {
+            style = 'underline'
+          }
+        }
+      }
     end,
   },
 }

@@ -107,5 +107,5 @@ return function()
   --
   -- COLORS
   -- vim.cmd('colorscheme citylights')
-  --vim.cmd('colorscheme transparent')
+  -- vim.cmd('colorscheme transparent')
 end
