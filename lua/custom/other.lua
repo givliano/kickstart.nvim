@@ -96,9 +96,9 @@ return function()
   --keymap.set('n', '<space>sl', '<C-w>l')
 
   -- keymap.set('n', '/', ':Neotree toggle current reveal_force_cwd<cr>')
-  keymap.set('n', '\\', ':Neotree toggle<CR>')
+  -- keymap.set('n', '\\', ':Neotree toggle<CR>')
   -- keymap.set('n', 'gd', ':Neotree float reveal_file=<cfile> reveal_force_cwd<cr>')
-  keymap.set('n', '|', ':Neotree toggle show buffers right<CR>')
+  -- keymap.set('n', '|', ':Neotree toggle show buffers right<CR>')
   -- keymap.set('n', '<leader>s', ':Neotree float git_status<CR>')
   --
   -- Map buffer switch to Tab and Shift + Tab
