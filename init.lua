@@ -244,7 +244,7 @@ require('lazy').setup({
   {
     'numToStr/Comment.nvim',
     opts = {},
-    dependencies = "JoosepAlviste/nvim-ts-context-commentstring",
+    dependencies = 'JoosepAlviste/nvim-ts-context-commentstring',
     config = function()
       require('Comment').setup {
         pre_hook = require('ts_context_commentstring.integrations.comment_nvim').create_pre_hook(),
@@ -630,7 +630,7 @@ require('lazy').setup({
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
-        -- ts_ls = {},
+        ts_ls = {},
         --
 
         lua_ls = {
@@ -870,8 +870,8 @@ require('lazy').setup({
       transparent = true,
       styles = {
         sidebars = 'transparent',
-        floats = 'transparent'
-      }
+        floats = 'transparent',
+      },
     },
     init = function()
       -- Load the colorscheme here.
